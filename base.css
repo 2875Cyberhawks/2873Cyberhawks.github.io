@@ -1,35 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Raleway');
 
-.header ul li {
-    display: inline;
-    color: white;
-}
-
-.header ul li a { color: white;
-}
-
-.header {
-    position: absolute;
-    padding: 0px;
-    border: 0;
-    margin: 0px;
-    width: 100%;
-    height: 4em;
-    background-color: #262626;
-    top: 0px;
+div#nav {
+    top: 0;
     left: 0;
-}
+    position: fixed;
 
-li {
-    top: -10px;
-    position: relative;
-    float: left;
-    padding: 2px;
-    background-color: #dddddd;
-    margin: 4px;
-    font-family: 'Raleway', sans-serif;
-}
-
-a {
-    text-decoration: none;
+    height: 4em;
+    width: 100%;
 }
